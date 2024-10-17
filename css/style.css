@@ -1,0 +1,536 @@
+*{
+    margin: 0;
+    padding: 0;
+
+box-sizing: border-box;}
+.box{
+    width: 100%; 
+    background: black;
+    overflow: hidden;
+}
+header{
+    width: 100%;
+    height: 100vh;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   align-content: space-around;
+   background: url(../img/scenic-view-snow-covered-peaks-aiguille-verte-french-alps\ 1.png);
+   background-size: 100% 100%;
+   position:relative;
+   overflow: hidden;
+}
+.oblako1 {
+    position: absolute;
+    top: -372px;
+    left: -170px;
+    width: 66%;
+    height: 93vh;
+}
+.oblako2{
+    position: absolute;
+    top: -372px;
+    right: -170px;
+    width: 66%;
+    height: 93vh;
+    
+}
+nav{
+    width: 85%;
+    height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.nav_left{
+    width: 20%;
+    height: 10vh;
+    text-align: left;
+    font-size: 45px;
+    letter-spacing: 20px;
+    overflow: hidden;
+}
+.nav_right{
+    width: 33%;
+
+    height: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.nav_4{
+    width: 22%;
+    height: 5vh;
+    border-radius: 50px;
+    background: rgb(0, 0, 0);
+    color: white;
+    line-height: 5vh;
+    font-size: 30px;overflow: hidden;
+    text-align: center;
+}
+.nav_1{
+    width: 22%;
+    height: 5vh;
+    border-radius: 50px;
+    line-height: 5vh;
+    font-size: 30px;overflow: hidden;
+    text-align: center;
+}
+.nav_2{
+    width: 22%;
+    height: 5vh;
+    border-radius: 50px;
+    line-height: 5vh;overflow: hidden;
+    font-size: 30px;
+    text-align: center;
+}
+.nav_3{
+    width: 22%;
+    height: 5vh;
+    border-radius: 50px;
+    line-height: 5vh;
+    font-size: 30px;overflow: hidden;
+    text-align: center;
+}
+.header_box{
+    width: 60%;
+    height: 30vh;overflow: hidden;
+}
+.header_box h2{
+    width: 100%;
+    text-align: center;
+    height: 12vh;
+    font-size: 40px;overflow: hidden;
+    letter-spacing: 30px;
+}
+.header_box h1{
+    width: 100%;
+    text-align: center;
+    height: 10vh;overflow: hidden;
+    font-size: 65px;
+    letter-spacing: 30px;
+}
+.min_header_box{
+    text-align: center;
+    height: 5vh;
+    font-size: 40px;overflow: hidden;
+    letter-spacing: 30px;
+    width: 44%;
+    height: 10vh;
+    color: white;
+
+}
+.soc_ceti{
+    width: 10%;
+    height: 2vh;
+    position: absolute;
+    bottom: 25px;
+    display: flex;overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    left: 35px;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    padding-right: 20%;
+    padding-left: 20%;
+   display: flex;overflow: hidden;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   align-content: space-around;
+   position:relative;
+background: black;
+}
+main h1{
+    color: white;
+    width: 100%;overflow: hidden;
+    text-align: center;
+    font-size: 55px;
+}
+main div{
+    height: 48vh; 
+    width: 25%;
+    text-align: center;overflow: hidden;
+}
+main div img{
+    height: 45vh; 
+    width: 100%;
+    text-align: center;overflow: hidden;
+}
+main div p{
+text-align: center;
+color: white;
+overflow: hidden;
+font-size: 30px;
+}
+main p{
+    text-align: left;
+    color: white;
+    font-size: 27px;overflow: hidden;
+    }
+    aside{
+        width: 100%;
+    height: 85vh;
+    padding-right: 15%;
+    padding-left: 15%;overflow: hidden;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   align-content: space-around;
+   position:relative;
+background: black;
+    }
+    .zag{
+        width: 83%;
+        height: 30vh;overflow: hidden;
+    }
+    aside h1{
+        color: white;
+        width: 100%;
+        text-align: center;overflow: hidden;
+        font-size: 75px;
+    }
+    aside p{
+        color: white;
+        width: 100%;
+        margin-top: 5%;
+        text-align: center;
+        font-size: 45px;overflow: hidden;
+    }
+  .aside_div{
+        width: 20%;
+        height: 25vh;overflow: hidden;
+        background: #78654F;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+    }
+    .aside_div h1{
+       font-size: 60px;overflow: hidden;
+    }
+    .aside_div p{
+        font-size: 35px;overflow: hidden;
+     }
+     .aside_div img{
+        width: 15%;overflow: hidden;
+        height: 54px;
+     }
+     article{
+        width: 100%;
+    height: 145vh;
+    padding-right: 15%;
+    padding-left: 15%;
+   display: flex;overflow: hidden;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   align-content: space-around;
+   position:relative;
+   margin-top: 5%;
+background: black;
+
+    }
+    article h1{
+        color: white;
+        width: 100%;overflow: hidden;
+        text-align: center;
+        font-size: 75px;
+    }
+    article div{
+        width: 30%;
+        height: 45vh;
+        display: flex;
+        color: white;overflow: hidden;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    article div img{
+        width: 100%;
+        height: 25vh;overflow: hidden;
+        
+    }
+    article div p{
+        font-size: 22px;overflow: hidden;
+color: gray;
+    }
+    article div h2{
+        font-size: 30px;overflow: hidden;
+
+    }
+    article div a{
+       color: white;
+       font-size: 25px;overflow: hidden;
+    }
+    section{
+        width: 100%;
+        height: 55vh;
+        padding-right: 15%;
+        padding-left: 15%;
+       display: flex;
+       flex-wrap: wrap;overflow: hidden;
+       justify-content: space-around;
+       align-items:center ;
+       align-content: space-around;
+       position:relative;
+    background: black;
+    }
+    section h1{
+        color: white;overflow: hidden;
+        width: 100%;
+        text-align: center;
+        font-size: 75px;
+    }
+    .im {
+        width: 44%;
+        height: 7vh;  
+     margin-top: -10%;
+        border-radius: 50px;
+        font-size: 20px;overflow: hidden;
+        padding-left: 2%;
+        
+    }
+.bu{
+    width: 17%;
+    height: 7vh;
+    border-radius: 50px;overflow: hidden;
+    margin-top: -10%;
+    background: black;
+    border: 5px solid white;
+    text-align: center;
+    line-height: 6vh;
+    color: white;
+    font-size:30px;
+}
+footer{
+    width: 100%;
+    height: 35vh;
+    padding-right: 1%;
+    padding-left: 1%;
+    display: flex;
+    flex-wrap: wrap;overflow: hidden;
+    justify-content: space-around;
+    align-items:center ;
+    align-content: space-around;
+    background: #463A2D;
+}
+.foot_item1{
+    width: 15%;
+    height: 25vh;
+}
+.foot_item1 p {
+    color: white;
+    margin-top: 5%;
+    font-size: 25px;
+}
+.foot_item1 h2 {
+    color: white;
+    margin-top: 5%;
+    font-size: 42px;
+    letter-spacing: 20px;
+}
+.foot_item2{
+    width: 40%;
+    height: 25vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.foot_item2 p{
+    width: 30%;
+    padding-top: 1%;
+    margin-top: 2%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.foot_item3 {
+    width: 20%;
+    height: 20vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.foot_item3 p{
+    width: 100%;
+    color: white;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 10px;
+}
+.foot_item3 div {
+    width: 47%;
+    background: black;
+    height: 5vh;
+    border-radius: 50px;
+}
+.foot_item4{
+    width: 100%;
+    height: 10vh;
+    margin-right: 5%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding-top: 2%;
+}
+
+@media screen and (width<480px) {
+    header{
+        background: url(../img/img_header2.png);
+        background-size: cover;
+        height: 100vh;
+    }
+    nav{
+        height: 20vh;
+    }
+    .nav_left{
+        width: 100%;
+        text-align: center;
+    }
+    .nav_right{
+        width: 100%;
+        height: 10vh;
+        align-items: center;
+    }
+    .nav_4 {
+        height: 5vh;
+        width: 50%;
+        margin-left: 25%;
+    }
+    .header_box h2 {
+        width: 100%;
+        text-align: center;
+        height: 13vh;
+        font-size: 34px;
+        letter-spacing: 17px;
+    }
+    .min_header_box{
+        letter-spacing: 23px;
+        color: white;
+        width: 55%;
+    }
+    .soc_ceti{
+        display: none;
+    }
+    .header_box{
+        width: 100%;
+    }
+    .header_box h1{
+    width: 100%;
+    text-align: center;
+    height: 10vh;
+    font-size: 40px;
+    letter-spacing: 13px;
+}
+main{
+    height: 195vh;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+main div{
+    height: 48vh; 
+    width: 100%;
+    text-align: center;
+}
+main h1{
+    font-size: 37px;
+}
+.zag{
+    width: 100%;
+}
+aside{
+        height: 127vh;
+        padding-left: 10%;
+        padding-right: 10%;
+}
+.aside_div{
+    width: 80%;
+}
+.zag p{
+    font-size: 20px;
+}
+.zag h1{
+    font-size: 39px;
+}
+.zag{
+    height: 20vh;
+}
+article{
+    height: 315vh;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+article div{
+    width: 100%;
+    height: 50vh;
+}
+article h1 {
+    font-size: 52px;
+}
+article div h2 {
+    font-size: 21px;
+}
+article div p {
+    font-size: 19px;
+}
+section{
+    height: 60vh;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+section h1 {
+    font-size: 36px;
+}
+.im {
+    width: 100%;
+    height: 7vh;
+    margin-top: -10%;
+    border-radius: 50px;
+    font-size: 20px;
+    padding-left: 8%;
+}
+.bu {
+    width: 100%;
+    height: 7vh;
+    border-radius: 50px;
+    margin-top: -32%;
+    background: black;
+    border: 5px solid white;
+    text-align: center;
+    line-height: 6vh;
+    color: white;
+    font-size: 25px;
+}
+.foot_item2 {
+    width: 100%;
+    
+}
+.foot_item1 {
+    width: 66%;
+    height: 16vh;
+}
+.foot_item3 {
+    width: 89%;
+
+}
+.foot_item3 p {
+    width: 100%;
+    color: white;
+    margin-top: 5%;
+    font-size: 31px;
+    letter-spacing: 10px;
+    text-align: center;
+}
+footer{
+    height:  68vh;
+}
+
+}
+
